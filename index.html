@@ -21,6 +21,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="header">
@@ -30,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <div class="nav">
+        <!-- <div class="nav">
             <div class="container-1000">
                 <div class="menu">
                     <ul>
@@ -40,6 +41,22 @@
                         <li class="menu-item"><a href="/blog">Blog</a></li>
                         <li class="menu-item"><a href="/contact">Contact</a></li>
                     </ul>
+                </div>
+            </div>
+        </div> -->
+        <div class="nav">
+            <div class="container-1000 center">
+                <div class="topnav" id="myTopnav">
+                    <a href="/events">Events</a>
+                    <a href="/services">Services</a>
+                    <a href="/clients">Clients</a>
+                    <a href="/about">About</a>
+                    <a href="/projects">Projects</a>
+                    <a href="/blog">Blog</a>
+                    <a href="/contact">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -272,5 +289,15 @@
             <script>
                 document.write(new Date().getFullYear())
             </script> Sybiltech | Website developed by <a href="/">Sybiltech</a></p></div>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            }
+        </script>
     </body>
 </html>
