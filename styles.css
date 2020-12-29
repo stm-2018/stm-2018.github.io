@@ -134,15 +134,9 @@ hr {
   
   /* Style the links inside the navigation bar */
   .topnav a {
-<<<<<<< HEAD
     float: left;
     /* float:right; */
     display: block;
-=======
-    /* float: left; */
-    /* float:right; */
-    /* display: block; */
->>>>>>> 151cc3995b98fb705f103a66481d2dc19c6eda19
     color: #f2f2f2;
     text-align: center;
     padding: 10px 16px;
@@ -166,7 +160,6 @@ hr {
   .topnav .icon {
     display: none;
   }
-<<<<<<< HEAD
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
     float: left;
@@ -226,12 +219,6 @@ hr {
 @media screen and (max-width: 767px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {display: none;}
     /* .topnav a, .dropdown .dropbtn {display: none;} */
-=======
-/* When the screen is less than 767 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 767px) {
-    /* .topnav a:not(:first-child) {display: none;} */
-    .topnav a {display: none;}
->>>>>>> 151cc3995b98fb705f103a66481d2dc19c6eda19
     .topnav a.icon {
       float: right;
       display: block;
@@ -253,7 +240,6 @@ hr {
       display: block;
       text-align: left;
     }
-<<<<<<< HEAD
     .topnav.responsive .dropdown {float: none;}
     .topnav.responsive .dropdown-content {position: relative;}
     .topnav.responsive .dropdown .dropbtn {
@@ -268,9 +254,6 @@ hr {
 .topnav .fa.fa-caret-down {
     color:#ffffff;
 }
-=======
-  }
->>>>>>> 151cc3995b98fb705f103a66481d2dc19c6eda19
 .nav {
     background-color: #c73535;
     padding: 10px;
