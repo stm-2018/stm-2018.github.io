@@ -64,15 +64,15 @@ h1 {
         font-size: 30px;
     } 
 }
-h2, h3, h4, h5, h6, a, p {
+h2, h3, h4, h5, h6, a, p, li {
     font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
-.section h2, .section h3, .section h4 {
+/* .section h2, .section h3, .section h4 {
     text-align: center;
-}
+} */
 h2 {
-    font-size: 42px;
+    font-size: 36px;
 }
 @media only screen and (max-width: 767px) {
     h2 {
@@ -92,13 +92,19 @@ h4 {
 }
 p {
     color: #3a3a3a;
-    font-size: 14px;
+    font-size: 16px;
 }
 a {
     text-decoration: none;
 }
+li {
+    font-size: 16px;
+}
+p, li {
+    line-height: 1.5rem;
+}
 hr {
-    margin: auto;
+    /* margin: auto; */
     width: 50px;
     border-color: #c73535;
     border-width: 2px;
@@ -307,12 +313,15 @@ hr {
         url("images/blog07-free-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
+    /* text-align: center; */
     padding: 100px 20px;
 }
 .hero h1, .hero h4, .hero p {
     color: #ffffff;
 }
+/* .main {
+    text-align:left;
+} */
 .section {
     padding: 20px;
 }
@@ -320,7 +329,6 @@ hr {
     padding: 20px;
 } */
 .clients {
-    /* padding: 20px; */
     text-align: center;
 }
 /* .testimonials {
@@ -328,6 +336,7 @@ hr {
 } */
 .testimonials img {
     height: 80px;
+    padding-top: 16px;
 }
 .certifications {
     text-align: center;
@@ -382,6 +391,9 @@ i {
 .center {
     text-align: center;
 }
+.left-align {
+    margin-left:0;
+}
 .btn-cnt {    
     background-color: rgb(1,85,149);   
     color: #ffffff;
@@ -406,7 +418,7 @@ i {
     background-color: #000000;
 }
 .btn-secondary {
-    border: 1px solid #ffffff;
+    border: 1px solid #c73535;
     background-color: #ffffff;
     color:#c73535;
     padding: 15px 40px;
@@ -418,6 +430,13 @@ i {
 .btn-secondary:hover {
     color: #ffffff;
     background-color: #c73535;
+}
+@media only screen and (max-width: 479px) {
+    .btn-cnt, .btn-primary, .btn-secondary {    
+        margin-top: 0px;
+        width: 100%;
+        display: block;
+    }
 }
 .padding-bottom {
     padding-bottom: 30px;
