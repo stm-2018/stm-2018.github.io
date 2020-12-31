@@ -285,26 +285,17 @@ hr {
     margin: 0;
     padding: 0;
 }
-.nav a {
-    /* padding: 20px; */
+/* .nav a {
+    padding: 20px; */
     /* color: #ffffff; */
-    /* display: block; */
-}
-.menu {
-    /* float:right; */
-}
+    /* display: block;
+} */
+/* .menu {
+    float:right;
+} */
 .menu-item a {
     color: #ffffff;
     /* margin: 0px 20px; */
-}
-.btn-contact {
-    background-color: #ffffff;
-    margin: 0px 20px;
-    padding: 5px 20px;
-    border-radius: 20px;
-}
-.btn-contact a {
-    color: #c73535;
 }
 .hero {
     /* min-height: 400px; */
@@ -394,6 +385,24 @@ i {
 .left-align {
     margin-left:0;
 }
+.btn-contact {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color:#c73535;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+}
+.btn-contact a {
+    color: #c73535;
+    border: 1px solid #ffffff;
+}
+.btn-contact:hover {
+    color: #ffffff;
+    background-color: #c73535;
+}
 .btn-cnt {    
     background-color: rgb(1,85,149);   
     color: #ffffff;
@@ -432,7 +441,7 @@ i {
     background-color: #c73535;
 }
 @media only screen and (max-width: 479px) {
-    .btn-cnt, .btn-primary, .btn-secondary {    
+    .btn-cnt, .btn-primary, .btn-secondary, .btn-contact {    
         margin-top: 0px;
         width: 100%;
         display: block;
