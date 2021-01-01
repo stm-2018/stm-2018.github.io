@@ -248,10 +248,9 @@
             </div>
             </div>
         </div>
-        <div class="copyright section center"><p>Copyright &copy; 
-            <script>
-                document.write(new Date().getFullYear())
-            </script> Sybiltech | Website developed by <a href="/">Sybiltech</a></p></div>
+        <div class="copyright section center"><p>Copyright &copy;           
+            <span id="year"></span> Sybiltech | Website developed by <a href="/">Sybiltech</a></p>
+        </div>
         <script>
             function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -261,6 +260,7 @@
                     x.className = "topnav";
                 }
             }
+            document.getElementById("year").innerHTML = new Date().getFullYear();
         </script>
     </body>
 </html>
