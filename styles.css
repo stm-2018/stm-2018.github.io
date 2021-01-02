@@ -307,9 +307,11 @@ hr {
 }
 .footer i {
     padding-right: 10px;
+    color: #ffffff;
 }
 .footer img {
     padding: 5px 0px;
+    max-height: 70px;
 }
 .copyright a {
     color: #c73535
@@ -338,8 +340,8 @@ i {
 }
 .btn-contact {
     border: 1px solid #ffffff;
-    background-color: #ffffff;
-    color:#c73535;
+    background-color: #c73535;
+    color: #ffffff;
     padding: 15px 40px;
     border-radius: 50px;
     text-decoration: none;
@@ -347,12 +349,12 @@ i {
     text-align: center;
 }
 .btn-contact a {
-    color: #c73535;
-    border: 1px solid #ffffff;
+    color: #ffffff;
 }
 .btn-contact:hover {
-    color: #ffffff;
-    background-color: #c73535;
+    color: #c73535;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
 }
 .btn-cnt {    
     background-color: rgb(1,85,149);   
