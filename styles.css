@@ -406,6 +406,16 @@ i {
 .padding-top {
     padding-top: 30px;
 }
+.padding-btn {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 479px) {
+    .padding-btn {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    } 
+}
 ::-moz-selection { /* Code for Firefox */
     color: #ffffff;
     background: #c73535;
