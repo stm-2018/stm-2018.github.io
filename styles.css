@@ -37,7 +37,7 @@
 .row {
     padding: 30px 0px 20px 0px;
 }
-.row::after {
+.row::after, .row-2::after {
     content: "";
     clear: both;
     display: table;
@@ -324,6 +324,12 @@ hr {
     background-color: #ffffff;
     border-radius: 5px;
     padding: 20px;
+}
+.shadow-box-2 {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 20px;
 }
 i {
     color:#c73535;
