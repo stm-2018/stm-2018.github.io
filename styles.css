@@ -442,3 +442,20 @@ i {
     width: 100%;
     height: 100%;
 }
+.Custom-Polaris-Icon {
+    display: block;
+    height: 4rem; /* or value equivalent to 20px */
+    width: 4rem; /* or value equivalent to 20px */
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+.Custom-Polaris-Icon__Svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    /* Icon color */
+    fill: #c73535;
+}
