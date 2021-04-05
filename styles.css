@@ -333,7 +333,7 @@ hr {
 }
 i {
     color:#c73535;
-    font-size: 30px;
+    font-size: 50px;
 }
 .center {
     text-align: center;
@@ -458,4 +458,9 @@ i {
     max-height: 100%;
     /* Icon color */
     fill: #c73535;
+}
+@media screen and (min-width: 768px) {
+    .smaller {
+        font-size: 24px;
+    }
 }
