@@ -382,10 +382,26 @@ hr {
     padding: 20px;
 }
 .shadow-box-2 {
-    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.25);
     background-color: #ffffff;
     border-radius: 12px;
-    margin: 40px 20px;
+    margin: 40px 0px;
+}
+@media only screen and (max-width: 768px) {
+    .shadow-box-2 .col-5 {
+        padding: 0 0 20px 0;
+    }
+    .shadow-box-2 .col-7 {
+        padding: 0 30px;
+        text-align: left;
+    }
+    /* .shadow-box-2 img {
+        border-radius: 12px 12px 0 0;
+    } */
+}
+.shadow-box-2:hover {
+    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.5);
+    transition: box-shadow 1s;
 }
 i {
     color:#791E89;
@@ -669,7 +685,7 @@ i {
 @media only screen and (max-width: 767px) {
     .partners img {
         width: 100%;
-        max-width: 144px;
+        max-width: 200px;
     }
 }
 /* Testimonial styling */
