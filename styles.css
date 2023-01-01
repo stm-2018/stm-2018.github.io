@@ -780,7 +780,7 @@ i {
   }
   
   .active, .dot:hover {
-    background-color: #791E89;
+    background-color: #791E89 !important;
   }
   
   /* Add an italic font style to all quotes */
