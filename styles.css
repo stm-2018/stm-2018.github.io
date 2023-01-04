@@ -715,6 +715,7 @@ i {
     position: relative;
     margin: auto;
     background-color: #ffffff;
+    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.5);
   }
   
   /* Hide the images by default */
@@ -735,7 +736,6 @@ i {
 
   .myPortfolio img {
     max-width: 100%;
-    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.5);
   }
   
   /* Next & previous buttons */
