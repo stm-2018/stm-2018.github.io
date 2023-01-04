@@ -147,11 +147,35 @@ permalink: /
             <div class="container-1140 padding-top center">
                 <div class="row">
                     <div class="col-6">                    
-                        <!-- Place video here -->
-                        <video width="100%" autoplay muted loop>
-                            <source src="videos/portfolio.mp4" type="video/mp4">
-                            Your browser does not support HTML video.
-                          </video>
+                        <div class="slideshow-container-portfolio">
+                            <div class="myPortfolio fade">
+                                <img src="images/clients/Happily-Clappily-Ever-Laughter-2.jpg">
+                            </div>
+                            <div class="myPortfolio fade">
+                                <img src="images/clients/Emrys-Consulting-2.jpg">
+                            </div>
+                            <div class="myPortfolio fade">
+                                <img src="images/clients/NeroWireArt-2.jpg">
+                            </div>
+                            <div class="myPortfolio fade">
+                                <img src="images/clients/LD-Tiling-Contractors-2.jpg">
+                            </div>
+                            <div class="myPortfolio fade">
+                                <img src="images/clients/CNT-Associates-2.jpg">
+                            </div>
+                            <div class="myPortfolio fade">
+                                <img src="images/clients/Crazy-Thumbs-2.jpg">
+                            </div>
+                            <div class="myPortfolio fade">
+                                <img src="images/clients/The-Bamboo-Wardrobe-2.jpg">
+                            </div>
+                            <div class="myPortfolio fade">
+                                <img src="images/clients/Audrey-Zeitoun-Coaching-2.jpg">
+                            </div>
+                            <div class="myPortfolio fade">
+                                <img src="images/clients/Future-Communities-UK-2.jpg">
+                            </div>
+                        </div>
                     </div>
                     <div class="col-6">                       
                         <h2>A selection of clients I have recently worked with</h2>
@@ -472,6 +496,29 @@ permalink: /
             slides[slideIndex-1].style.display = "block";  
             dots[slideIndex-1].className += " active";
             t = setTimeout(nextSlide, 20000); // Change slide every 20 seconds
+            }
+
+            // Script for portfolio slides
+            var pSlideIndex = 0;
+            var u;
+            var pSlides = document.getElementsByClassName("myPortfolio");
+            nextPSlide();
+            function nextPSlide() {
+            pSlideIndex++;
+            showPortfolioSlide(pSlideIndex);
+            }
+            function showPortfolioSlide(i) {
+            for (i = 0; i < pSlides.length; i++) {
+                pSlides[i].style.display = "none";  
+            }
+            if (pSlideIndex > pSlides.length) {
+                pSlideIndex = 1;
+            } else if (pSlideIndex < 1) {
+                pSlideIndex = pSlides.length;
+            }   
+            // console.log(pSlideIndex);
+            pSlides[pSlideIndex-1].style.display = "block";  
+            u = setTimeout(nextPSlide, 3000); // Change slide every 3 seconds
             }
         </script>
 </body>

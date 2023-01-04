@@ -710,6 +710,12 @@ i {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+  .slideshow-container-portfolio {
+    position: relative;
+    margin: auto;
+    background-color: #ffffff;
+  }
   
   /* Hide the images by default */
   .mySlides {
@@ -717,9 +723,19 @@ i {
     margin: 60px 60px 0px 60px;
     text-align: center;
   }
+
+  .myPortfolio {
+    display: none;
+    text-align: center;
+  }
   
   .mySlides img {
     max-width: 100%;
+  }
+
+  .myPortfolio img {
+    max-width: 100%;
+    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.5);
   }
   
   /* Next & previous buttons */
