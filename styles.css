@@ -389,7 +389,7 @@ hr {
     padding: 20px;
 }
 .shadow-box-2 {
-    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.25);
+    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.13);
     background-color: #ffffff;
     border-radius: 12px;
     margin: 40px 0px;
@@ -407,7 +407,7 @@ hr {
     } */
 }
 .shadow-box-2:hover {
-    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.5);
+    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.25);
     transition: box-shadow 1s;
 }
 i {
@@ -672,11 +672,11 @@ i {
 }
 .offer-card {
     padding: 30px;
-    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.25);
+    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.13);
     border-radius: 12px;
 }
 .blog-card {
-    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.25);
+    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.13);
     border-radius: 12px;
 }
 .blog-card img {
@@ -686,7 +686,7 @@ i {
     padding: 30px;
 }
 .offer-card:hover, .blog-card:hover {
-    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.5);
+    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.25);
     transition: box-shadow 1s;
 }
 @media only screen and (max-width: 767px) {
