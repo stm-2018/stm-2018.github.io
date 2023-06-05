@@ -78,7 +78,20 @@
                         <div class="col-10">
                             <div class="nav">
                                     <div class="topnav" id="myTopnav">
-                                        <a href="https://sybiltec.com/services">Services</a>
+                                        <a href="/">Home</a>
+                                        <div class="dropdown">
+                                            <button onclick="toggleDropdown()" class="dropbtn">Services 
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                              <a href="website-review.html">Website Review</a>
+                                              <a href="website-design.html">Website Design</a>
+                                              <a href="website-development.html">Website Development</a>
+                                              <a href="website-maintenance.html">Website Maintenance</a>
+                                              <a href="training.html">Training</a>
+                                              <a href="leaflet-design.html">Leaflet Design</a>
+                                            </div>
+                                          </div> 
                                         <a href="https://sybiltec.com/clients">Clients</a>
                                         <!-- <a href="https://sybiltec.com/events">Events</a> -->
                                         <a href="https://sybiltec.com/about">About Me</a>
@@ -99,7 +112,7 @@
             <div class="container-1140">
                 <div class="row">
                     <div class="col-8">
-                        <h1 style="">Web design and development services</h1>
+                        <h1>Web design and development services</h1>
                         <h2  class="padding-bottom" style="color: #ffffff; font-size: 18px">A freelance web designer supporting small businesses in South East London</h2>
                         <a class="btn-primary" href="https://us5.list-manage.com/contact-form?u=0faa041c3b4e79909716dd256&form_id=e1c8f76dbb1507fc5caa25324e7047dd" target="_blank">Contact Me</a>
                     </div>
@@ -120,6 +133,9 @@
                             <i class="fas fa-clipboard-check"></i>
                         <h3>Website Review</h3>
                         <p>A detailed report with feedback on the main aspects of your site's user experience, search engine optimisation (SEO) and design. Recommended improvements are provided.</p>
+                        <div class="center padding-bottom padding-top">
+                            <a class="btn-primary" href="website-review.html">Learn More</a>   
+                        </div>
                         </div>
                     </div>
                     <div class="col-4">
@@ -127,6 +143,9 @@
                             <i class="fa-solid fa-laptop"></i>
                         <h3>Custom Website Design</h3>
                         <p>If you are looking to create a website that is as unique as you are, I will design a professional and user-friendly website that perfectly reflects your brand and style.</p>
+                        <div class="center padding-bottom padding-top">
+                            <a class="btn-primary" href="website-design.html">Learn More</a>   
+                        </div>
                         </div>
                     </div>
                     <div class="col-4">
@@ -134,6 +153,9 @@
                             <i class="fas fa-code"></i>
                     <h3>Website Development</h3>
                     <p>Bespoke website development services tailored to your needs, including one-off tasks, design improvements and error fixing. Perfect for when you need support on an ad-hoc basis.</p>
+                    <div class="center padding-bottom padding-top">
+                        <a class="btn-primary" href="website-development.html">Learn More</a>   
+                    </div>
                     </div>
                     </div>
                 </div>
@@ -143,13 +165,19 @@
                             <i class="fas fa-tools"></i>
                         <h3>Website Maintenance</h3>
                         <p>As a business owner, you're most likely a very busy person with little time to spare! I will be your long-term partner to manage the ongoing maintenance of your website.</p>
+                        <div class="center padding-bottom padding-top">
+                            <a class="btn-primary" href="website-maintenance.html">Learn More</a>   
+                        </div>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="offer-card center">
                             <i class="fa-solid fa-graduation-cap"></i>
                         <h3>Training</h3>
-                        <p>Do you need a facilitator for your training event? I can host webinars or in-person workshops on topics ranging from setting up a Shopify store to getting your business online.</p>
+                        <p>Do you need a facilitator for your training event? I can host webinars or in-person workshops on topics ranging from getting your business online to setting up a Shopify store.</p>
+                        <div class="center padding-bottom padding-top">
+                            <a class="btn-primary" href="training.html">Learn More</a>   
+                        </div>
                         </div>
                     </div>
                     <div class="col-4">
@@ -157,11 +185,11 @@
                             <i class="fa-regular fa-file-image"></i>
                         <h3>Leaflet Design</h3>
                         <p>Do you have an upcoming event that you'd like to promote? I can design a leaflet, poster or social media graphic to showcase your event.</p>
+                        <div class="center padding-bottom padding-top">
+                            <a class="btn-primary" href="leaflet-design.html">Learn More</a>   
+                        </div>
                         </div>
                     </div>
-                </div>
-                <div class="center padding-bottom padding-top">
-                    <a class="btn-primary" href="https://sybiltec.com/services">View Services</a>   
                 </div>
             </div>
         </div>
@@ -217,7 +245,7 @@
                         <i class="fa-regular fa-circle-check"></i><h3>Attention to Detail</h3>
                         <p>I'll scrutinise every detail to make sure everything is just right. You will be presented with a pixel-perfect design.</p>
                         <i class="fa-regular fa-circle-check"></i><h3>Personalised Services</h3>
-                        <p>Unlike working with an angency, you'll be working directly with myself, providing you with a truly personalised customer service.</p>
+                        <p>Unlike working with an agency, you'll be working directly with myself, providing you with a truly personalised customer service.</p>
                     </div>
                     <div class="col-6">
                         <i class="fa-regular fa-circle-check"></i><h3>A Range of Experiences</h3>
@@ -479,6 +507,27 @@
                     x.className += " responsive";
                 } else {
                     x.className = "topnav";
+                }
+            }
+
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function toggleDropdown() {
+            document.getElementById("myDropdown").classList.toggle("show");
+            console.log("click");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                    }
                 }
             }
             document.getElementById("year").innerHTML = new Date().getFullYear();
