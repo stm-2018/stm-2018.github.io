@@ -1,12 +1,4 @@
 User-agent: *
 Disallow: /404.html
-Disallow: /uploads/udemy-the-complete-2022-software-testing-bootcamp.pdf
-Disallow: /uploads/sybil-mayard-google-digital-garage-fundamentals-of-digital-marketing.pdf
-Disallow: /uploads/VidCareer-Information-v2.pdf
 Disallow: /uploads/portfolio.pdf
-Noindex: /404.html
-Noindex: /uploads/udemy-the-complete-2022-software-testing-bootcamp.pdf
-Noindex: /uploads/sybil-mayard-google-digital-garage-fundamentals-of-digital-marketing.pdf
-Noindex: /uploads/VidCareer-Information-v2.pdf
-Noindex: /uploads/portfolio.pdf
 Sitemap: https://sybiltec.com/sitemap.xml
