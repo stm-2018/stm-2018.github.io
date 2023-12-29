@@ -323,6 +323,10 @@ hr {
 .hero h1, .hero h4, .hero p {
     color: #ffffff;
 }
+.hero h2 {
+    color:#ffffff;
+    font-size: 18px;
+}
 .hero img {
     border-radius: 500px;
     border: 8px solid #D5BB32;
