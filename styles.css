@@ -32,7 +32,7 @@ iframe {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     [class*="col-"] {
-        padding: 20px;
+        padding: 10px;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -432,6 +432,9 @@ hr {
 i {
     color:#791E89;
     font-size: 40px;
+}
+.smalli {
+    font-size: 18px;
 }
 .center {
     text-align: center;
