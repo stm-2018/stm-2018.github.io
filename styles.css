@@ -851,3 +851,13 @@ q {font-style: italic;}
     max-width: 100%;
     padding: 20px 0px;
 }
+.announcement-bar {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+}
+.announcement-bar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
