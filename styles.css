@@ -860,3 +860,53 @@ q {font-style: italic;}
     text-decoration: none;
     font-size: 14px;
 }
+/* Logo carousel */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%)
+    }
+}
+.logos {
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+@media only screen and (min-width: 768px) {
+    .logos:before, .logos:after {
+        position:absolute;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        content: "";
+        z-index: 2;
+    }
+    .logos:before {
+        left: 0;
+        background: linear-gradient(to left, rgba(255, 255, 255, 0),white);
+    }
+    .logos:after {
+        right: 0;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0),white);
+    }
+}
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+.logos-slide {
+    padding: 40px 0;
+    display: inline-block;
+    animation: 150s slide infinite linear;
+}
+.logos-slide img {
+    height: 40px;
+    margin: 0 40px;
+    filter: grayscale(100%);
+}
+.logos-slide img:hover {
+    filter: grayscale(0%);
+}
