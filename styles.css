@@ -710,6 +710,9 @@ i {
     box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.25);
     transition: box-shadow 1s;
 }
+.partners img {
+    max-width: 80%;
+}
 @media only screen and (max-width: 767px) {
     .partners img {
         max-width: 200px;
