@@ -131,9 +131,6 @@ hr {
 .header .logo {
     text-align: left;
 }
-.header .logo img {
-    max-width: 250px;
-}
 .header .row {
     padding: 0;
 }
