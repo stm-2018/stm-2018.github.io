@@ -910,3 +910,13 @@ q {font-style: italic;}
 .logos-slide img:hover {
     filter: grayscale(0%);
 }
+.customer-logos img {
+    height: 50px;
+    margin: 20px 0 0 0;
+}
+@media screen and (max-width: 767px) {
+    .customer-logos img {
+        height: 50px;
+        margin: 20px 0;
+    }
+}
