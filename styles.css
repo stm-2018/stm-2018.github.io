@@ -62,7 +62,7 @@ html {
 body {
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6, a, p, q, li, #caption {
+h1, h2, h3, h4, h5, h6, a, p, q, li, #caption, .breadcrumb {
     font-family: 'Lato', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -919,4 +919,13 @@ q {font-style: italic;}
         height: 50px;
         margin: 20px 0;
     }
+}
+.breadcrumb {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb li {
+    display: inline-block;
+    font-size: 14px;
 }
