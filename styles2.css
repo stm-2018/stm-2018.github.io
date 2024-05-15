@@ -45,7 +45,7 @@ iframe {
     max-width: 100%;
 }
 .row {
-    padding: 30px 0px 20px 0px;
+    padding: 10px 0px 10px 0px;
 }
 .row::after, .row-2::after {
     content: "";
@@ -73,7 +73,7 @@ a, p, q, li {
     font-weight: 400;
 }
 h1 {
-    font-size: 60px;
+    font-size: 48px;
 }
 @media only screen and (max-width: 767px) {
     h1 {
@@ -81,7 +81,7 @@ h1 {
     } 
 }
 h2 {
-    font-size: 36px;
+    font-size: 30px;
 }
 @media only screen and (max-width: 767px) {
     h2 {
@@ -89,7 +89,7 @@ h2 {
     }
 }
 h3 {
-    font-size: 24px;
+    font-size: 18px;
 }
 @media only screen and (max-width: 767px) {
     h3 {
@@ -362,6 +362,13 @@ hr {
     height: 80px;
     padding-top: 16px;
 }
+.testimonial-card {
+    text-align: center;
+    background-color: #f6f6f6;
+    margin: 0px 5px;
+    padding: 30px;
+    border-radius: 6px;
+}
 .certifications {
     text-align: center;
 }
@@ -438,7 +445,7 @@ hr {
 }
 i {
     color:#791E89;
-    font-size: 40px;
+    font-size: 32px;
 }
 .smalli {
     font-size: 18px;
@@ -514,7 +521,7 @@ i {
     padding-bottom: 30px;
 }
 .padding-top {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 @media only screen and (max-width: 768px) {
     .padding-bottom {
@@ -868,12 +875,12 @@ q {font-style: italic;}
 .announcement-bar {
     background-color: #000000;
     text-align: right;
-    padding: 10px 20px;
+    padding: 10px 80px;
 }
 .announcement-bar a, .announcement-bar span, .announcement-bar i {
     color: #ffffff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
 .announcement-bar i {
@@ -882,6 +889,7 @@ q {font-style: italic;}
 @media only screen and (max-width: 768px) {
     .announcement-bar {
         text-align: center;
+        padding: 10px 20px;
     }
 }
 /* Logo carousel */
