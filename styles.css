@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -234,7 +233,7 @@ hr {
     color: black;
 } */
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     .dropdown:hover .dropdown-content {
       display: block;
     }
@@ -374,9 +373,20 @@ hr {
 .certifications {
     text-align: center;
 }
-.contact {
-    /* background-color: #791E89; */
-    background: linear-gradient(90deg, #791E89, rgb(204, 0, 0, 0.8))
+@media screen and (min-width: 768px) {
+    .btn-contact {
+        background-color: #D5BB32;
+        color: #000000 !important;
+        /* padding: 10px 40px !important; */
+        border-radius: 6px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .btn-contact:hover {
+        background-color: #000000;
+        color:#ffffff !important;
+    }
 }
 .contact h3, .contact p {
     color: #ffffff;
