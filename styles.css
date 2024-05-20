@@ -373,6 +373,10 @@ hr {
 .certifications {
     text-align: center;
 }
+.contact {
+    /* background-color: #791E89; */
+    background: linear-gradient(90deg, #791E89, rgb(204, 0, 0, 0.8))
+}
 @media screen and (min-width: 768px) {
     .btn-contact {
         background-color: #D5BB32;
