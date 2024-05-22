@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /uploads/portfolio.pdf
 Sitemap: https://sybiltec.com/sitemap.xml
