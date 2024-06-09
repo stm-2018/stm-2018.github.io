@@ -360,10 +360,10 @@ hr {
 .testimonials {
     padding-top: 60px;
 }
-.testimonials img {
+/* .testimonials img {
     height: 80px;
     padding-top: 16px;
-}
+} */
 .testimonial-card {
     text-align: center;
     background-color: #efefef;
@@ -992,10 +992,10 @@ q {font-style: italic;}
 }
 .blog-title {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color:#000000;
 }
-.stars {
-    max-height: 33px;
+.star {
+    height: 16px;
 }
