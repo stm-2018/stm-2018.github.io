@@ -1019,3 +1019,9 @@ table {
         display: none;
     }
 }
+.founders-note img {
+    border-radius: 500px;
+    border: 8px solid #D5BB32;
+    width: 300px;
+    max-width: 100%;
+}
