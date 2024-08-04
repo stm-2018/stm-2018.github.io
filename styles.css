@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 * {
     box-sizing: border-box;
@@ -63,16 +64,26 @@ html {
 body {
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6, a, p, q, li, #caption, .breadcrumb, span, table, th, tr, td {
-    font-family: 'Lato', sans-serif;
-}
 h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Lato', sans-serif; */
+    font-family: "Cardo", serif;
     font-weight: 700;
-} 
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+}
+a, p, q, li, #caption, .breadcrumb, span, table, th, tr, td {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 a, p, q, li {
     font-weight: 400;
 }
 h1 {
+    font-size: 36px;
+    margin: 0;
+}
+.hero.homepage h1 {
     font-size: 48px;
 }
 @media only screen and (max-width: 767px) {
@@ -100,7 +111,7 @@ h4 {
     font-size: 16px;
 }
 p, q, li {
-    color: #3a3a3a;
+    color: #000000;
     font-size: 16px;
     line-height: 1.5rem;
 }   
@@ -108,10 +119,10 @@ hr {
     width: 50px;
     height: 5px;
     border: none;
-    /* border-color: #791E89;
-    border-width: 2px;
-    border-style: solid; */
-    background: linear-gradient(90deg, #791E89, rgb(204, 0, 0, 1))
+    background-color: #791E89;
+    /* border-width: 2px;
+    border-style: solid;
+    background: linear-gradient(90deg, #340d3b, rgb(204, 0, 0, 1)) */
 }
 .container-1140 {
     max-width: 1140px;
@@ -131,6 +142,9 @@ hr {
 }
 .header {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
 }
 .header .logo {
     text-align: left;
@@ -154,18 +168,19 @@ hr {
 }
 /* Add a red background color to the top navigation */
 .topnav {
-    /* background-color: #791E89; */
+    /* background-color: #340d3b; */
     overflow: hidden;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     display: block;
-    color: #791E89;
+    color: #340d3b;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
     font-size: 16px;
+    font-weight: 700;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -199,7 +214,7 @@ hr {
     font-size: 16px;
     border: none;
     outline: none;
-    color: #791E89;
+    color: #340d3b;
     padding: 10px 16px;
     background-color: inherit;
     font-family: 'Lato', sans-serif;
@@ -217,7 +232,7 @@ hr {
 /* Style the links inside the dropdown */
 .dropdown-content a {
     float: none;
-    color: #791E89;
+    color: #340d3b;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -225,7 +240,7 @@ hr {
 }
 /* Add a dark background on topnav links and the dropdown button on hover */
 /* .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #791E89;
+    background-color: #340d3b;
     color: white;
 } */
 /* Add a grey background to dropdown links on hover */
@@ -246,7 +261,7 @@ hr {
     .topnav a.icon {
       float: right;
       display: block;
-      background-color: #791E89;
+      background-color: #7B1E8C;
     }
 }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -256,7 +271,7 @@ hr {
       position: absolute;
       right: 0;
       top: 0;
-      background-color: #791E89;
+      background-color: #7B1E8C;
     }
     .topnav.responsive a {
         float: none;
@@ -286,7 +301,7 @@ hr {
 }
 .show {display: block;}
 .nav {
-    /* background-color: #791E89; */
+    /* background-color: #340d3b; */
     padding: 10px;
 }
 @media only screen and (max-width:767px) {
@@ -310,14 +325,15 @@ hr {
 }
 .hero {
     background-color: transparent;
-    background-image: linear-gradient(90deg, #791E89, rgb(204, 0, 0, 1));
+    background-image: linear-gradient(0deg, #7B1E8C, #340d3b);
+    /* background-color: #340d3b; */
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px 20px;
+    padding: 60px 20px 60px 20px;
 }
 @media screen and (max-width: 767px) {
     .hero {
-        background-image: linear-gradient(90deg, #791E89, rgb(204, 0, 0, 1));
+        /* background-image: linear-gradient(90deg, #340d3b, rgb(204, 0, 0, 1)); */
         padding: 20px;
     }
 }
@@ -334,7 +350,7 @@ hr {
 }
 /* .hero img {
     border-radius: 500px;
-    border: 8px solid #D5BB32;
+    border: 8px solid #FFC721;
     width: 250px;
     max-width: 100%;
     filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.25));
@@ -342,14 +358,18 @@ hr {
 .hero i {
     padding: 0 10px;
     font-size: 18px;
-    color: #D5BB32;
+    color: #FFC721;
+}
+.emphasis {
+    color: #FFC721;
+    font-style: oblique;
 }
 .section {
     padding: 20px;
 }
 .clients {
     text-align: center;
-    /* background: linear-gradient(90deg, #791E89, rgb(204, 0, 0, 1)); */
+    /* background: linear-gradient(90deg, #340d3b, rgb(204, 0, 0, 1)); */
 }
 .clients video {
     filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.25));
@@ -375,21 +395,22 @@ hr {
     text-align: center;
 }
 .contact {
-    /* background-color: #791E89; */
-    background: linear-gradient(90deg, #791E89, rgb(204, 0, 0, 1))
+    /* background-color: #340d3b; */
+    background: linear-gradient(90deg, #340d3b, #791E89)
 }
 @media screen and (min-width: 768px) {
     .btn-contact {
-        background-color: #D5BB32;
+        background-color: #FFC721;
         color: #000000 !important;
         /* padding: 10px 40px !important; */
-        border-radius: 6px;
+        /* border-radius: 6px; */
         text-decoration: none;
         text-align: center;
         margin-left: 10px;
+        font-weight: 700;
     }
     .btn-contact:hover {
-        background-color: #000000;
+        background-color: #1e1e1e;
         color:#ffffff !important;
     }
 }
@@ -407,7 +428,7 @@ hr {
 }
 .footer p, .footer a {
     color: #ffffff;
-    font-weight: 300;
+    font-weight: 400;
 }
 .footer p {
     margin: 6px 0;
@@ -431,7 +452,7 @@ hr {
     text-decoration: none;
 }
 .copyright a {
-    color: #791E89
+    color: #340d3b
 }
 .copyright p {
     font-size: 14px;
@@ -440,7 +461,7 @@ hr {
     background-color: #f6f6f6;
 }
 .violet {
-    background-color: #791E89;
+    background-color: #340d3b;
 }
 .shadow-box {
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
@@ -488,7 +509,7 @@ i {
 }
 /* .btn-contact {
     border: 1px solid #ffffff;
-    background-color: #791E89;
+    background-color: #340d3b;
     color: #ffffff;
     padding: 15px 40px;
     border-radius: 6px;
@@ -500,7 +521,7 @@ i {
     color: #ffffff;
 }
 .btn-contact:hover {
-    color: #791E89;
+    color: #340d3b;
     border: 1px solid #ffffff;
     background-color: #ffffff;
 } */
@@ -508,7 +529,7 @@ i {
     background-color: rgb(1,85,149);   
     color: #ffffff;
     padding: 15px 40px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     text-decoration: none;
     margin-top: 30px;
 }
@@ -516,21 +537,22 @@ i {
     background-color: rgb(39,161,218);
 }
 .btn-primary {
-    background-color: #D5BB32;
+    background-color: #FFC721;
     color: #000000;
     padding: 15px 40px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     text-decoration: none;
     margin-top: 30px;
     text-align: center;
+    font-weight: 700;
 }
 .btn-primary:hover {
-    background-color: #000000;
+    background-color: #1e1e1e;
     color: #ffffff;
 }
 .btn-secondary {
     font-weight: 700;
-    color: #791E89;
+    color: #340d3b;
     text-decoration: none;
 }
 @media only screen and (max-width: 479px) {
@@ -566,11 +588,11 @@ i {
 }
 ::-moz-selection { /* Code for Firefox */
     color: #ffffff;
-    background: #D5BB32;
+    background: #FFC721;
 }
 ::selection {
     color: #ffffff;
-    background: #D5BB32;
+    background: #FFC721;
 }
 .videoWrapper {
     position: relative;
@@ -607,7 +629,7 @@ i {
     }
 }
 .section svg {
-    color:#791E89;
+    color:#340d3b;
     font-size: 36px;
 }
 .footer svg {
@@ -898,7 +920,7 @@ q {font-style: italic;}
 .announcement-bar {
     background-color: #1e1e1e;
     /* background-color: transparent; */
-    /* background-image: linear-gradient(90deg, #791E89, rgb(204, 0, 0, 1)); */
+    /* background-image: linear-gradient(90deg, #340d3b, rgb(204, 0, 0, 1)); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
     text-align: right;
@@ -1025,7 +1047,7 @@ table {
 }
 .founders-note img {
     border-radius: 500px;
-    border: 8px solid #D5BB32;
+    border: 8px solid #FFC721;
     width: 300px;
     max-width: 100%;
 }
