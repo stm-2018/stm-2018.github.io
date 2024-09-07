@@ -136,6 +136,7 @@ hr {
 .header {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
     background-color: #ffffff;
+    z-index: 1000;
 }
 @media only screen and (min-width: 768px) {
     .header {
@@ -1032,4 +1033,13 @@ table {
     border: 8px solid #FFC721;
     width: 300px;
     max-width: 100%;
+}
+.case-study-screenshot {
+    width:400px;
+    padding: 20px 0;
+}
+@media screen and (max-width: 767px) {
+    .case-study-screenshot {
+        max-width: 100%;
+    }
 }
