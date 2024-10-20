@@ -65,12 +65,12 @@ html {
 body {
     margin: 0;
 }
-h1, h2, h3 {
+h1 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-h4, h5, h6, a, p, q, li, #caption, .breadcrumb, span, table, th, tr, td {
+h2, h3, h4, h5, h6, a, p, q, li, #caption, .breadcrumb, span, table, th, tr, td {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -88,7 +88,7 @@ h1 {
     } 
 }
 h2 {
-    font-size: 36px;
+    font-size: 30px;
 }
 @media only screen and (max-width: 767px) {
     h2 {
@@ -96,7 +96,7 @@ h2 {
     }
 }
 h3 {
-    font-size: 24px;
+    font-size: 18px;
 }
 @media only screen and (max-width: 767px) {
     h3 {
