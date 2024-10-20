@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 * {
     box-sizing: border-box;
@@ -64,16 +65,18 @@ html {
 body {
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
+h1, h2, h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-h1, h2, h3, h4, h5, h6, a, p, q, li, #caption, .breadcrumb, span, table, th, tr, td {
+h4, h5, h6, a, p, q, li, #caption, .breadcrumb, span, table, th, tr, td {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 h1 {
-    font-size: 36px;
+    font-size: 48px;
     margin: 0;
 }
 .hero.homepage h1 {
@@ -85,7 +88,7 @@ h1 {
     } 
 }
 h2 {
-    font-size: 30px;
+    font-size: 36px;
 }
 @media only screen and (max-width: 767px) {
     h2 {
@@ -93,7 +96,7 @@ h2 {
     }
 }
 h3 {
-    font-size: 18px;
+    font-size: 24px;
 }
 @media only screen and (max-width: 767px) {
     h3 {
@@ -259,7 +262,7 @@ hr {
     .topnav a.icon {
       float: right;
       display: block;
-      background-color: #7B1E8C;
+      background-color: #FFC721;
     }
 }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -269,7 +272,7 @@ hr {
       position: absolute;
       right: 0;
       top: 0;
-      background-color: #7B1E8C;
+      background-color: #FFC721;
     }
     .topnav.responsive a {
         float: none;
@@ -295,7 +298,7 @@ hr {
 }
 .topnav .fas.fa-bars {
     font-size: 16px;
-    color:#ffffff;
+    color:#000000;
 }
 .show {display: block;}
 .nav {
@@ -322,8 +325,8 @@ hr {
     color: #ffffff;
 }
 .hero {
-    background-color: transparent;
-    background-image: linear-gradient(0deg, #7B1E8C, #340d3b);
+    background-color: #561562;
+    /* background-image: linear-gradient(0deg, #7B1E8C, #340d3b); */
     background-size: cover;
     background-repeat: no-repeat;
     padding: 60px 20px;
@@ -346,7 +349,10 @@ hr {
 }
 .emphasis {
     color: #FFC721;
-    font-style: oblique;
+    /* font-style: oblique; */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .section {
     padding: 20px;
@@ -379,7 +385,8 @@ hr {
     text-align: center;
 }
 .contact {
-    background: linear-gradient(0deg, #791E89, #340d3b)
+    /* background: linear-gradient(0deg, #791E89, #340d3b) */
+    background-color: #561562;
 }
 @media screen and (min-width: 768px) {
     .btn-contact {
@@ -1042,4 +1049,12 @@ table {
     .case-study-screenshot {
         max-width: 100%;
     }
+}
+.logo a {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 52px;
+    color: #561562;
+    text-decoration: none;
 }
