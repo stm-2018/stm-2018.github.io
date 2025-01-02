@@ -1,5 +1,0 @@
-version: STSv1
-mode: testing
-mx: mx01.ionos.co.uk
-mx: mx02.ionos.co.uk
-max_age: 86400
