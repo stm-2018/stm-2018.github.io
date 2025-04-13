@@ -220,6 +220,7 @@ hr {
     background-color: inherit;
     font-family: 'Lato', sans-serif;
     margin: 0;
+    font-weight: 700;
 }
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
@@ -238,6 +239,7 @@ hr {
     text-decoration: none;
     display: block;
     text-align: left;
+    font-weight: 400;
 }
 /* Add a dark background on topnav links and the dropdown button on hover */
 /* .topnav a:hover, .dropdown:hover .dropbtn {
