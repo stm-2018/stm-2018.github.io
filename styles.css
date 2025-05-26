@@ -142,12 +142,6 @@ hr {
     background-color: #ffffff;
     z-index: 1000;
 }
-@media only screen and (min-width: 768px) {
-    .header {
-        position: sticky;
-    top: 0;
-    }
-}
 .header .logo {
     text-align: left;
 }
