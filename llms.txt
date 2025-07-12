@@ -9,7 +9,7 @@ This is the [sitemap](https://sybiltec.com/sitemap.xml) of this website.
 ## Posts
 - [Small Business Strategies](https://sybiltec.com/strategies-for-business-success/): Critical strategies to transform your website into a platform for growth.
 - [Website Compliance Guide](https://sybiltec.com/website-compliance-quick-guide/): A quick guide to what is legally required on your website.
-- [Cyber Security Best Practices](https://sybiltec.com/cyber-security-best-practices-for-business/): Tips and advice for keeping your organisation protected.
+- [Cyber Security Best Practices](https://sybiltec.com/cyber-security-best-practices-for-business/): Tips and advice for keeping your organisation secure.
 
 ## Pages
 - [Web Design for Growth](https://sybiltec.com/): Bespoke web design services for small businesses across the UK.
@@ -22,3 +22,6 @@ This is the [sitemap](https://sybiltec.com/sitemap.xml) of this website.
 - [Business Training Workshops](https://sybiltec.com/training/): Workshops offering essential training for business success.
 - [Leaflet Design Services](https://sybiltec.com/leaflet-design/): Custom leaflet designs for events, posters, and social media.
 - [Client Case Studies](https://sybiltec.com/clients/): Explore Sybiltec's diverse client case studies and projects.
+- [Web Design in Bexley](https://sybiltec.com/website-design/): Web design for Bexley small businesses.
+- [Web Design in Surrey](https://sybiltec.com/web-design-surrey/): Web design for small businesses in Surrey.
+- [Construction Web Design](https://sybiltec.com/construction-web-design/): Web design for the construction industry.
