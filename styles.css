@@ -1022,16 +1022,6 @@ th {
 table {
     border-collapse: collapse;
 }
-@media screen and (max-width: 767px) {
-    .events-table {
-        display: none;
-    }
-}
-@media screen and (min-width: 768px) {
-    .events-list {
-        display: none;
-    }
-}
 .founders-note img {
     border-radius: 500px;
     border: 8px solid #FFC721;
