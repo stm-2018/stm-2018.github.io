@@ -1,10 +1,10 @@
-# https://sybiltec.com llms.txt
+This is an llms.txt file, meant for consumption by LLMs.
 
 This is the [sitemap](https://sybiltec.com/sitemap.xml) of this website.
 
 # Sybiltec: Transform Your Website into a Platform for Growth\.
 
-> Designing websites that make an impact for small businesses in London, Surrey, Kent, all across the UK and beyond\.
+> Freelance web designer creating websites that make an impact for small businesses in London, Surrey, Kent, all across the UK and beyond\.
 
 ## Posts
 - [Small Business Strategies](https://sybiltec.com/strategies-for-business-success/): Critical strategies to transform your website into a platform for growth.
