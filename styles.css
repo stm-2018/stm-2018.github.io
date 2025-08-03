@@ -512,17 +512,6 @@ i {
     border: 1px solid #ffffff;
     background-color: #ffffff;
 } */
-.btn-cnt {    
-    background-color: rgb(1,85,149);   
-    color: #ffffff;
-    padding: 15px 40px;
-    /* border-radius: 6px; */
-    text-decoration: none;
-    margin-top: 30px;
-}
-.btn-cnt:hover {
-    background-color: rgb(39,161,218);
-}
 .btn-primary {
     background-color: #FFC721;
     color: #000000;
@@ -543,13 +532,14 @@ i {
     text-decoration: none;
     padding: 15px 28px;
     border: 1px solid #561562;
+    text-align: center;
 }
 .btn-secondary:hover {
     background-color: #561562;
     color: #ffffff;
 }
 @media only screen and (max-width: 479px) {
-    .btn-cnt, .btn-primary, .btn-contact {    
+    .btn-primary, .btn-contact, .btn-secondary {
         margin-top: 0px;
         width: 100%;
         display: block;
