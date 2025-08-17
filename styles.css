@@ -136,6 +136,8 @@ hr {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
     background-color: #ffffff;
     z-index: 1000;
+    position:sticky;
+    top:0px;
 }
 .header .logo {
     text-align: left;
