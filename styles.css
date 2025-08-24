@@ -763,136 +763,9 @@ i {
     }
 }
 /* Testimonial styling */
-/* Slideshow container */
-.slideshow-container {
-    /* max-width: 1000px; */
-    position: relative;
-    margin: auto;
-    background: #ffffff;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
-    background-color: #ffffff;
-    border-radius: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
 
-  .slideshow-container-portfolio {
-    position: relative;
-    margin: auto;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 40px 0px rgba(121, 29, 136, 0.5);
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-    margin: 60px 60px 0px 60px;
-    text-align: center;
-  }
-
-  .myPortfolio {
-    display: none;
-    text-align: center;
-  }
-  
-  .mySlides img {
-    max-width: 100%;
-  }
-
-  .myPortfolio img {
-    max-width: 100%;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #791E89;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot-container {
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  
-  .dot {
-    cursor: pointer;
-    height: 8px;
-    width: 8px;
-    margin: 0 2px;
-    background-color: rgb(121 30 137 / 25%);
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #791E89 !important;
-  }
-  
-  /* Add an italic font style to all quotes */
+/* Add an italic font style to all quotes */
 q {font-style: italic;}
-
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
 .screenshot {
     max-width: 100%;
     padding: 20px 0px;
@@ -1047,4 +920,33 @@ table {
 }
 .padding-bottom-20px {
     padding-bottom: 20px;
+}
+.collapsible {
+    background-color: #f1f1f1;
+    color: #000000;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+.collapsible:after {
+    content: '\002B';
+    color: #000000;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2212";
+}
+.content {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #ffffff;
+    border: 1px solid #f1f1f1;
 }
