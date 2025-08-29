@@ -951,3 +951,8 @@ table {
     background-color: #ffffff;
     border: none;
 }
+.caption {
+    font-style: italic;
+    font-size: 14px;
+    color:#333333;
+}
