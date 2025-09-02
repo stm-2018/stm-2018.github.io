@@ -135,9 +135,13 @@ hr {
 .header {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
     background-color: #ffffff;
-    z-index: 1000;
-    position:sticky;
-    top:0px;
+}
+@media only screen and (min-width: 768px) {
+    .header {
+        z-index: 1000;
+        position:sticky;
+        top:0px;
+    }
 }
 .header .logo {
     text-align: left;
@@ -955,4 +959,11 @@ table {
     font-style: italic;
     font-size: 14px;
     color:#333333;
+}
+.contact-me {
+    text-align: left !important;
+}
+.contact-me i {
+    font-size: 16px;
+    padding-right: 8px;
 }
